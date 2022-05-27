@@ -1,0 +1,32 @@
+:root {
+  --primary-color: #458ff6;
+  --primary-background: linear-gradient(
+    208.18deg,
+    #67c3f3 9.05%,
+    #5a98f2 76.74%
+  );
+}
+
+.btn {
+  font-size: 1.125rem;
+  line-height: 3.75rem;
+  font-style: bold;
+  border-radius: 3.438rem;
+  padding: 0.938rem 2.5rem;
+}
+
+.btn-primary {
+  color: white;
+  background: var(--primary-color);
+}
+
+.btn-light {
+  color: var(--primary-color);
+  background: white;
+  border: 1px solid var(--primary-color);
+}
+
+.bg-primary {
+  color: var(--primary-background);
+  color: white;
+}
